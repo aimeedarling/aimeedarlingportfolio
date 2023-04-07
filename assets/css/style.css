@@ -4,15 +4,27 @@
     --berry:#bf5669;
     --peach:#F28E85;
     --pink:#f2bbbb;
-    --
+    --grad:linear-gradient(to right var(--peach), var(--berry))
 }
 
 * {
-background-color:var(--pink);
-color:var(--dark)
-    
+
+background-color:var(--grad);
+color:var(--dark);
+box-sizing:border-box;    
 }
 
+header img{
+    display:flexbox;
+   width:35%;
+   border:5px dotted var(--berry)
+   flex: 25px;
+}
 nav {
  
 }
+
+/* 
+linkedin direct link
+
+https: //www.linkedin.com/in/aimee-darling-910847271/ */
