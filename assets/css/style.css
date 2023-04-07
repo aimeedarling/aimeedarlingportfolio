@@ -9,19 +9,25 @@
 
 * {
 
-background-color:var(--grad);
+background-color:var(--pink);
 color:var(--dark);
 box-sizing:border-box;    
 }
 
-header img{
-    display:flexbox;
-   width:35%;
-   border:5px dotted var(--berry)
-   flex: 25px;
+header{
+    padding:60px;
+    text-align:center;
 }
+header img{
+   display:flexbox;
+   width:35%;
+   /* border:5px solid var(--berry); */
+   justify-content:center;
+}
+
 nav {
- 
+    background-color:linear-gradient(to right #F28E85, to left #a65858);
+    padding: 50 px;
 }
 
 /* 
