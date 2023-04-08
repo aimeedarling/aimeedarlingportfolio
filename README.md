@@ -42,7 +42,10 @@ If you used any third-party assets that require attribution, list the creators w
 
 If you followed tutorials, include links to those here as well.
 
+ ~~~~
+
 [Profesional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+[Semantic HTML](https://www.internetingishard.com/html-and-css/semantic-html/)
 
 ## License
 
