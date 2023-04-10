@@ -23,17 +23,18 @@ body {
 }
 
 .main-header {
-    display: flexbox;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
     background-color: var(--pink2);
     padding: 20px;
-    /* margin: 50px; */
     font-size: 60px;
     font-family: 'brush script MT', Courier, monospace;
-    border-top: 10px solid var(--dark);
-    border-bottom: 10px solid var(--dark);
-    /* border-radius:25px;     */
-}
+    border-top: 15px solid var(--dark);
+    border-bottom: 15px solid var(--dark);
+  }
+  header li {
+    flex-direction: row;
+  }
 
 /* .row{
     flex-direction: row;
@@ -41,18 +42,13 @@ body {
     flex-wrap: wrap;
     
 } */
-
-nav{
-    background-color: var(--pink2);
-    /* padding: 50 px; */
-}
-
+/* 
 .nav{
         background-color: var(--pink2);
         display:flexbox;
-        /* flex-direction: row;
-        flex-wrap: wrap; */
-}
+        flex-direction: row;
+        flex-wrap: wrap;
+} */
 /* 
 li.nav-list{
     flex-direction: row;
@@ -94,10 +90,11 @@ section img {
 #about {
     padding: 50px;
 }
-#projects{
+
+.projects{
     display: flex;
-    /* flex-direction: row-reverse;
-    flex-wrap: wrap; */
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 figure {
@@ -106,12 +103,16 @@ figure {
     flex-wrap: wrap;
 }
 
-.project1: {
-    width:75%;
+#project-1: {
+flex:3;
 }
 
-.project2 {
-    width: 25%;
+#project-2 {
+flex:1;
+}
+
+#project-3{
+flex:1;
 }
 
 #contact {
