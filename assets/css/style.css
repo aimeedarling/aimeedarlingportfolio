@@ -24,7 +24,7 @@ body {
 
 .main-header {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     background-color: var(--pink2);
     padding: 20px;
     font-size: 60px;
