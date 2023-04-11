@@ -4,6 +4,7 @@
     --berry: #bf5669;
     --peach: #F28E85;
     --pink: #f8dcdc;
+    --green:#c0e6cd;
     --pink2: #d79c9f;
     --grad: linear-gradient(to right var(--peach), var(--berry))
 }
@@ -15,98 +16,72 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: 62.5%
+    /* font-size: 62.5% */
 }
 
 body {
     font-family: Courier, monospace;
-    background-color: var(--pink)
+    background-color: var(--pink);
 }
 
 .main-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--pink2);
+    height: 100px;
     padding: 10px;
     font-size: 35px;
     text-shadow:4px 4px 4px var(--berry);
-    /* font-family: 'brush script MT', Courier, monospace; */
     border: 3px solid var(--dark);
     border-radius: 25px;
-    /* border-top: 15px solid var(--dark);
-    border-bottom: 15px solid var(--dark); */
   }
-  header li {
-    flex-direction: row;
-  }
-
-/* .row{
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    
-} */
-
+ 
 .nav{
-        display:flex;
-        margin:auto
+    display:flex;
+    justify-content: space-evenly;
+    text-decoration: none;
    }
-/* 
-li.nav-list{
-    flex-direction: row;
-    flex-wrap:wrap;
-} */
+
 
 .nav-list a{
-    flex-direction: row;
-    flex-wrap:wrap;
-    /* background-color:var(--pink2); */
-    
-}
-a:link{
-    text-decoration: none;
-    /* flex-direction: row;
-    flex-wrap: wrap; */
-}
-
-header h1 {
-     background-color: var(--pink2);
-    /* flex: basis 0;; */
+    text-decoration:none;   
+    padding:12px;
 }
 
 section img {
     width: 25%;
-    border: 5px dotted var(--berry);
-    border-radius: 300px;
+    /* border: 5px dotted var(--berry); */
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
     background-color: var(--pink2);
     }
-/* 
-.nav-list{
-    background-color: var(--pink2);
-    flex-direction: row;
-    justify-content: space-evenly; */
-}
 
-#about {
+.about {
+    display:flex;
     padding: 50px;
+    font-size: larger;
+    justify-content: space-between;
+}
+.about div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 100px;
 }
 
 .projects{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
-figure {
-    /* display: flexbox; */
-    flex-direction: row;
-    flex-wrap: wrap;
+.projects h2{
+    font-size: 500;
 }
 
-#project-1: {
-flex:3;
+#project-1 {
+width: 75%;
 }
 
 #project-2 {
