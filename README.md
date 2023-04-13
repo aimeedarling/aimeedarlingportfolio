@@ -47,6 +47,8 @@ If you followed tutorials, include links to those here as well.
 [Profesional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 [Semantic HTML](https://www.internetingishard.com/html-and-css/semantic-html/)
 [A Completed Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background)
+[How TO - Smooth Scrool](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1)
+
 
 ## License
 

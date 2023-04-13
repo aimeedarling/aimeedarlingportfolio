@@ -47,59 +47,56 @@ body {
     padding: 1.2rem;
 }
 
-.about img {
+#about img {
     width: 40rem;
     height: auto;
-    border: 5px ridge var(--berry);
+    border: 5px ridge var(--dark);
     border-radius: 50%;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--pink2);
 }
 
-.about {
+#about {
     display: flex;
     padding: 5rem;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     justify-content: space-between;
 }
 
-.about div {
+#about div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 5rem;
 }
 
-.about h2,
-.projects h2,
-.contact h2 {
+#about h2,
+#projects h2,
+#contact h2 {
     text-shadow: .4rem .4rem .4rem var(--berry);
     align-self: center;
 }
 
-.projects {
+#projects {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.projects h2 {
+#projects h2 {
     padding-bottom: 3rem;
-    font-size: 2.5rem;
-    /* margin: auto; */
+    font-size: 2.8rem;
+    /* border: 10px solid red; */
 }
 
-figure #project-1 {
+.project-1 {
     max-width: 60%;
     height: auto;
-    border: 5px ridge var(--berry);
-    border-radius: 50%;
-
-}
+ }
 
 .comingsoon {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .project-2,
@@ -109,21 +106,18 @@ figure #project-1 {
 
 }
 
-.contact {
+#contact {
     display: flex;
     margin-top: 100px;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     justify-content: space-around;
-    border: 10px solid red;
 }
-
-.links {
-    justify-items: flex-end;
-    text-decoration: none;
-}
-
 
 @media screen and (max-width: 992px) {
+    header{
+        viewport-fit: 100%;
+    }
+    
     .nav {
         display: flex;
         flex-direction: column;
