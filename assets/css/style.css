@@ -28,7 +28,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: var(--pink2);
-    height: 10rem;
+    height: 12rem;
     padding: 3rem;
     font-size: 3rem;
     text-shadow: .4rem .4rem .4rem var(--berry);
@@ -59,7 +59,7 @@ body {
 #about {
     display: flex;
     padding: 5rem;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     justify-content: space-between;
 }
 
@@ -75,6 +75,7 @@ body {
 #contact h2 {
     text-shadow: .4rem .4rem .4rem var(--berry);
     align-self: center;
+    font-size:3rem;
 }
 
 #projects {
@@ -85,8 +86,7 @@ body {
 
 #projects h2 {
     padding-bottom: 3rem;
-    font-size: 2.8rem;
-    /* border: 10px solid red; */
+ 
 }
 
 .project-1 {
@@ -109,10 +109,13 @@ body {
 #contact {
     display: flex;
     margin-top: 100px;
-    font-size: 2.8rem;
+    font-size: 3rem;
     justify-content: space-around;
 }
-
+.links li {
+   text-decoration: none; 
+   font-size: 2rem;
+}
 @media screen and (max-width: 992px) {
     header{
         viewport-fit: 100%;
